@@ -1,30 +1,41 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Comming soon</title>
-    <link href="http://static.alwaysdata.com/v3/css/common.css" rel="stylesheet" type="text/css" media="screen" />
-    <link href="http://static.alwaysdata.com/v3/css/new.css" rel="stylesheet" type="text/css" media="screen" />
-    <!--[if !IE 7]>
-        <style type="text/css">
-            #global {display:table;height:100%}
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Comming soon</title>
+        <style>
+            body,html {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            .box {
+                height: 100%;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            img {
+                max-height: 100%;
+                max-width: 100%;
+                object-fit: contain;
+            }
         </style>
-    <![endif]-->
-</head>
-
-<body>
-    <style>
-    div#centralblock {
-        width: 448px;
-        height: 307px;
-        margin: auto;
-        padding: 1px;
-    }
-    </style>
-    <div id="centralblock" class="shadowed">
-                <img src="martians.jpg" />
-    </div>
- 
-</body>
-
+    </head>
+    <body>
+        <div class="box"><img src="martians.jpg"/></div>
+        <script type='text/javascript'>
+        (function (d) {
+            var apc = d.createElement('script'), fs;
+            apc.type = 'text/javascript';
+            apc.charset = 'UTF-8';
+            apc.async = true;
+            apc.src = 'https://apccdn.apsis1.com/live/d/1052-20180627062547/3e76deb7.js';
+            fs = d.getElementsByTagName('script')[0];
+            fs.parentNode.insertBefore(apc, fs);
+        })(document);
+        </script>
+    </body>
 </html>
